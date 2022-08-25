@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>mumcu.net.DPAPI</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Emre Mumcu</Authors>
+		<Company>mumcu.net</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Title>Data Protection Api</Title>
+		<PackageTags>DPAPI</PackageTags>
+		<Description>DPAPI (Data Protection Application Programming Interface) is a simple cryptographic application programming interface available as a built-in component in Windows 2000 and later versions of Microsoft Windows operating systems.</Description>
+		<Copyright>Emre Mumcu</Copyright>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/emremumcu/mumcu.net.DPAPI/</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/obviex/Samples/blob/master/Dpapi.md</PackageProjectUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
